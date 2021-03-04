@@ -66,16 +66,15 @@
         {
             var divss=document.createElement("div");
             divss.setAttribute("class","card");
-            var cdiv=document.createElement("div");
-            cdiv.setAttribute("class","card-img-overlay");
+            
             var im=document.createElement("img");
             im.setAttribute("src",img);
             
-            var h=document.createElement("h6");
-            h.setAttribute("class","card-title");
-            h.innerHTML=imgname;
-            cdiv.append(h);
-            divss.append(im,cdiv);
+            
+          
+           
+            
+            divss.append(im);
             return divss;
         }
     </script>
